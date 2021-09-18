@@ -61,6 +61,9 @@ header img {
 .content {
   margin: 5rem 0;
 }
+.illustration {
+  margin: 0 auto;
+}
 .text {
   margin-top: 5rem;
 }
