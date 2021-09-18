@@ -39,8 +39,9 @@ body {
 }
 /* For Debugging Only End */
 body {
-  background-image: url(../images/bg-mobile.svg);
+  background-image: url(../images/bg-desktop.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
   background-color: var(--Violet);
   display: grid;
   place-items: center;
@@ -96,9 +97,6 @@ footer i {
 }
 /* Desktop Media */
 @media (min-width: 900px) {
-  body {
-    background-image: url(../images/bg-desktop.svg);
-  }
   header img {
     max-width: 200px;
   }
